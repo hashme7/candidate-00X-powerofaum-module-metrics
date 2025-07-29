@@ -42,7 +42,6 @@ The system is built with Node.js and Express, featuring a mock database service 
 
    ```bash
    git clone <repository-url>
-   cd powerofaum-admin-metrics
    ```
 
 2. **Install dependencies**
