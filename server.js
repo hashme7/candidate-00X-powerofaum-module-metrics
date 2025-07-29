@@ -7,11 +7,8 @@ const PORT = process.env.PORT || 3000;
 
 app.use(
   cors({
-    origin:
-      process.env.NODE_ENV === "production"
-        ? ["https://powerofaum.com", "https://admin.powerofaum.com"]
-        : "*",
-    credentials: true,
+    origin: "*",
+    credentials: false,
   })
 );
 app.use(json({ limit: "10mb" }));
