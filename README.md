@@ -21,9 +21,6 @@ This is a backend module designed for **PowerOfAum**—a private SaaS platform f
 
 - Platform commission and revenue data
 - User engagement metrics
-- Subscription analytics
-- Add-on sales tracking
-- Pro trial conversions
 
 The system is built with Node.js and Express, featuring a mock database service for demonstration purposes.
 
